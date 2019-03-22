@@ -5,7 +5,7 @@ def line(deli_line)
 
   if deli_line.length == 0
 
-    puts "#{line_msg} empty"
+    puts "#{line_msg} empty."
 
   else
 
@@ -15,7 +15,7 @@ def line(deli_line)
       line_queue << " #{i + 1}. #{person}"
     end
 
-    puts "#{line_msg}: #{line_queue}"
+    puts "#{line_msg}:#{line_queue}"
   end
 
 end
