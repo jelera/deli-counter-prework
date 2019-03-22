@@ -20,5 +20,10 @@ def line(deli_line)
 
 end
 
-def take_a_number
+def take_a_number(deli_line, person)
+
+  deli_line << person
+
+  puts "Welcome, #{person}. You are number #{deli_line.size}"
+
 end
