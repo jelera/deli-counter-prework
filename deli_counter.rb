@@ -3,12 +3,7 @@ def line(deli_line)
 
   line_msg = "The line is currently"
 
-  if deli_line.length == 0
-
-    "#{line_msg} empty."
-
-  else
-
+  if deli_line.length > 0
     line_queue = ""
 
     deli_line.each_with_index do |person, i|
@@ -16,6 +11,11 @@ def line(deli_line)
     end
 
     "#{line_msg}: #{line_queue}"
+
+
+  else
+    "#{line_msg} empty."
+
   end
 
 end
