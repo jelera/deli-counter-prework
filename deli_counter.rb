@@ -3,7 +3,7 @@ def line(deli_line)
 
   line_msg = "The line is currently"
 
-  if deli_line.length == 0
+  if deli_line.size == 0
 
     "#{line_msg} empty"
 
