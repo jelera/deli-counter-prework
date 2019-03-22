@@ -5,7 +5,7 @@ def line(deli_line)
 
   if deli_line.length == 0
 
-    "#{line_msg} empty"
+    "#{line_msg} empty."
 
   else
 
